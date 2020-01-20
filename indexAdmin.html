@@ -67,11 +67,68 @@
 							<div class="user-block d-none d-lg-block">
 								<div class="row align-items-center">
 									<div class="col-lg-12 col-md-12 col-sm-12">
+										<div class="user-notification-block align-right d-inline-block">
+											<div class="top-nav-search item-animated">
+												<form>
+													<input type="text" class="form-control" placeholder="Search here">
+													<button class="btn" type="submit"><i class="fa fa-search"></i></button>
+												</form>
+											</div>
+										</div>
 
-
+										<!-- User notification-->
+										<div class="user-notification-block align-right d-inline-block">
+											<ul class="list-inline m-0">
+												<li class="list-inline-item item-animated" data-toggle="tooltip" data-placement="top" title=""
+													data-original-title="Apply Leave">
+													<a href="leave.html" class="font-23 menu-style text-white align-middle">
+														<span class="lnr lnr-briefcase position-relative"></span>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<!-- /User notification-->
 
 										<!-- user info-->
+										<div class="user-info align-right dropdown d-inline-block header-dropdown">
+											<a href="javascript:void(0)" data-toggle="dropdown" class=" menu-style dropdown-toggle">
+												<div class="user-avatar d-inline-block">
+													<img src="assets/img/profiles/img-6.jpg" alt="user avatar" class="rounded-circle img-fluid"
+														width="55">
+												</div>
+											</a>
 
+											<!-- Notifications -->
+											<div
+												class="dropdown-menu notification-dropdown-menu shadow-lg border-0 p-3 m-0 dropdown-menu-right">
+												<a class="dropdown-item p-2" href="employment.html">
+													<span class="media align-items-center">
+														<span class="lnr lnr-user mr-3"></span>
+														<span class="media-body text-truncate">
+															<span class="text-truncate">Profile</span>
+														</span>
+													</span>
+												</a>
+												<a class="dropdown-item p-2" href="profile-settings.html">
+													<span class="media align-items-center">
+														<span class="lnr lnr-cog mr-3"></span>
+														<span class="media-body text-truncate">
+															<span class="text-truncate">Settings</span>
+														</span>
+													</span>
+												</a>
+												<a class="dropdown-item p-2" href="login.html">
+													<span class="media align-items-center">
+														<span class="lnr lnr-power-switch mr-3"></span>
+														<span class="media-body text-truncate">
+															<span class="text-truncate">Logout</span>
+														</span>
+													</span>
+												</a>
+											</div>
+											<!-- Notifications -->
+
+										</div>
 										<!-- /User info-->
 
 									</div>
@@ -111,9 +168,30 @@
 												</span>
 											</span>
 										</a>
-
-
-
+										<a class="p-2" href="employees.html">
+											<span class="media align-items-center">
+												<span class="lnr lnr-users mr-3"></span>
+												<span class="media-body text-truncate text-left">
+													<span class="text-truncate text-left">Employees</span>
+												</span>
+											</span>
+										</a>
+										<a class="p-2" href="company.html">
+											<span class="media align-items-center">
+												<span class="lnr lnr-apartment mr-3"></span>
+												<span class="media-body text-truncate text-left">
+													<span class="text-truncate text-left">Company</span>
+												</span>
+											</span>
+										</a>
+										<a class="p-2" href="calendar.html">
+											<span class="media align-items-center">
+												<span class="lnr lnr-calendar-full mr-3"></span>
+												<span class="media-body text-truncate text-left">
+													<span class="text-truncate text-left">Calendar</span>
+												</span>
+											</span>
+										</a>
 										<a class="p-2" href="leave.html">
 											<span class="media align-items-center">
 												<span class="lnr lnr-briefcase mr-3"></span>
@@ -147,7 +225,14 @@
 											</span>
 										</a>
 
-
+										<a class="p-2" href="settings.html">
+											<span class="media align-items-center">
+												<span class="lnr lnr-cog mr-3"></span>
+												<span class="media-body text-truncate text-left">
+													<span class="text-truncate text-left">Settings</span>
+												</span>
+											</span>
+										</a>
 										<a class="p-2" href="employment.html">
 											<span class="media align-items-center">
 												<span class="lnr lnr-user mr-3"></span>
@@ -186,17 +271,32 @@
 								<div class="append mr-auto my-0 my-md-0 mr-auto">
 									<ul class="list-group list-group-horizontal-md mr-auto">
 										<li class="mr-1 active"><a href="index.html" class="btn-ctm-space text-white"><span
-													class="lnr lnr-home pr-0 pr-lg-4"></span><span class="d-none d-lg-inline">Dashboard</span></a>
+													class="lnr lnr-home pr-0 pr-lg-2"></span><span class="d-none d-lg-inline">Dashboard</span></a>
 										</li>
+										<li class="mr-1"><a class="text-dark btn-ctm-space " href="employees.html"><span
+													class="lnr lnr-users pr-0 pr-lg-2"></span><span
+													class="d-none d-lg-inline">Employees</span></a></li>
+										<li class="mr-1"><a class="text-dark btn-ctm-space " href="company.html"><span
+													class="lnr lnr-apartment pr-0 pr-lg-2"></span><span
+													class="d-none d-lg-inline">Company</span></a></li>
+										<li class="mr-1"><a class="btn-ctm-space text-dark" href="calendar.html"><span
+													class="lnr lnr-calendar-full pr-0 pr-lg-2"></span><span
+													class="d-none d-lg-inline">Calendar</span></a></li>
 										<li class="mr-1"><a class="btn-ctm-space text-dark" href="leave.html"><span
-													class="lnr lnr-rocket pr-0 pr-lg-4"></span><span class="d-none d-lg-inline">Reports</span></a>
-										</li>
+													class="lnr lnr-briefcase pr-0 pr-lg-2"></span><span
+													class="d-none d-lg-inline">Leave</span></a></li>
 										<li class="mr-1"><a class="text-dark btn-ctm-space" href="reviews.html"><span
-													class="lnr lnr-star pr-0 pr-lg-4"></span><span class="d-none d-lg-inline">Status</span></a>
+													class="lnr lnr-star pr-0 pr-lg-2"></span><span class="d-none d-lg-inline">Reviews</span></a>
 										</li>
-
-
-
+										<li class="mr-1"><a class="btn-ctm-space text-dark" href="reports.html"><span
+													class="lnr lnr-rocket pr-0 pr-lg-2"></span><span class="d-none d-lg-inline">Reports</span></a>
+										</li>
+										<li class="mr-1"><a class="btn-ctm-space text-dark" href="manage.html"><span
+													class="lnr lnr-sync pr-0 pr-lg-2"></span><span class="d-none d-lg-inline">Manage</span></a>
+										</li>
+										<li class="mr-1"><a class="btn-ctm-space text-dark" href="settings.html"><span
+													class="lnr lnr-cog pr-0 pr-lg-2"></span><span class="d-none d-lg-inline">Settings</span></a>
+										</li>
 									</ul>
 								</div>
 
