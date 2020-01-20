@@ -39,7 +39,7 @@ loginForm.addEventListener("submit", e => {
         firebase.auth().currentUser
       );
 
-      location.href = "indexAdmin.html";
+      location.href = "adminReview.html";
     })
     .catch(err => {
       console.log(err);
