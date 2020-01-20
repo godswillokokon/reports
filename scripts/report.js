@@ -2,13 +2,15 @@ const report = document.querySelector("#report");
 
 report.addEventListener("submit", e => {
   e.preventDefault();
-  let name = document.getElementById("name").value;
-  let crime = document.getElementById("crime").value;
-  let gender = document.getElementById("gender").value;
-  let reportDate = document.getElementById("reportDate").value;
-  let email = document.getElementById("email").value;
-  let mobile = document.getElementById("mobile").value;
-  let more = document.getElementById("more").value;
+  const name = document.getElementById("name").value;
+  const crime = document.getElementById("crime").value;
+  const gender = document.getElementById("gender").value;
+  const reportDate = document.getElementById("reportDate").value;
+  const email = document.getElementById("email").value;
+  const mobile = document.getElementById("mobile").value;
+  const more = document.getElementById("more").value;
+  const status = "In progress";
+  const closed = "In progress"
 
   return db
     .collection("reports")
@@ -21,6 +23,8 @@ report.addEventListener("submit", e => {
       email,
       mobile,
       more,
+      status,
+      closed
 
     }, alert("success!"))
     .catch(err => {
