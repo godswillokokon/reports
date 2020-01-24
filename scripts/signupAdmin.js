@@ -50,7 +50,7 @@ signupForm.addEventListener("submit", e => {
       console.log(Uname);
 
       let nameSession = sessionStorage.setItem("username", name);
-      location.href = "adminReview.html";
+      location.href = "adminReviews.html";
     })
     .catch(err => {
       console.log(err);
