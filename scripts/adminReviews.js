@@ -49,7 +49,7 @@ const setupContent = data => {
 
 let first = db
   .collection('reports')
-  .where("name", "==", nameID)
+
   .orderBy('status', 'asc')
   .onSnapshot(
     doc => {
