@@ -13,7 +13,7 @@ const setupContent = data => {
 
     const div = `
     <tr>
-    	<td >${id}</td>
+    	<td ><a href="./report.html?${id}">${id}</a></td>
     	<td >${crime}</td>
 															<td>${reportDate}</td>
 														
